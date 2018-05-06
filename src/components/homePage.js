@@ -1,8 +1,9 @@
 "use strict";
 
-var React = require('C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/react');
-var createReactClass = require('C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/create-react-class');
 
+//var node_path = 'C:/Users/papak/AppData/Roaming/npm/node_modules/'
+var React = require('C:/Users/papak/AppData/Roaming/npm/node_modules/react');
+var createReactClass = require('C:/Users/papak/AppData/Roaming/npm/node_modules/create-react-class');
 
 var Home = createReactClass({
     render: function (){

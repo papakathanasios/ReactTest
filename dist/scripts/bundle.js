@@ -20276,9 +20276,9 @@ process.umask = function() { return 0; };
 },{}],39:[function(require,module,exports){
 "use strict";
 
-var React = require('C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/react');
-var createReactClass = require('C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/create-react-class');
-
+//var node_path = 'C:/Users/papak/AppData/Roaming/npm/node_modules/'
+var React = require('C:/Users/papak/AppData/Roaming/npm/node_modules/react');
+var createReactClass = require('C:/Users/papak/AppData/Roaming/npm/node_modules/create-react-class');
 
 var About = createReactClass({
     render: function (){
@@ -20302,11 +20302,12 @@ var About = createReactClass({
 });
 
 module.exports = About;
-},{"C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/create-react-class":2,"C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/react":30}],40:[function(require,module,exports){
+},{"C:/Users/papak/AppData/Roaming/npm/node_modules/create-react-class":2,"C:/Users/papak/AppData/Roaming/npm/node_modules/react":30}],40:[function(require,module,exports){
 "use strict";
 
-var React = require('C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/react');
-var createReactClass = require('C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/create-react-class');
+//var node_path = 'C:/Users/papak/AppData/Roaming/npm/node_modules/'
+var React = require( 'C:/Users/papak/AppData/Roaming/npm/node_modules/react');
+var createReactClass = require('C:/Users/papak/AppData/Roaming/npm/node_modules/create-react-class');
 
 
 var Header = createReactClass({
@@ -20326,12 +20327,13 @@ var Header = createReactClass({
 });
 
 module.exports = Header;
-},{"C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/create-react-class":2,"C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/react":30}],41:[function(require,module,exports){
+},{"C:/Users/papak/AppData/Roaming/npm/node_modules/create-react-class":2,"C:/Users/papak/AppData/Roaming/npm/node_modules/react":30}],41:[function(require,module,exports){
 "use strict";
 
-var React = require('C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/react');
-var createReactClass = require('C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/create-react-class');
 
+//var node_path = 'C:/Users/papak/AppData/Roaming/npm/node_modules/'
+var React = require('C:/Users/papak/AppData/Roaming/npm/node_modules/react');
+var createReactClass = require('C:/Users/papak/AppData/Roaming/npm/node_modules/create-react-class');
 
 var Home = createReactClass({
     render: function (){
@@ -20345,15 +20347,17 @@ var Home = createReactClass({
 });
 
 module.exports = Home;
-},{"C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/create-react-class":2,"C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/react":30}],42:[function(require,module,exports){
+},{"C:/Users/papak/AppData/Roaming/npm/node_modules/create-react-class":2,"C:/Users/papak/AppData/Roaming/npm/node_modules/react":30}],42:[function(require,module,exports){
 //$ = jQuery = require('jquery');
 
+//var node_path = 'C:/Users/papak/AppData/Roaming/npm/node_modules/'
+//var node_path = 'C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules';
 //var jQuery = require('C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/jquery');
-var React = require('C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/react');
-var ReactDOM = require('C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/react-dom');
+var React = require( 'C:/Users/papak/AppData/Roaming/npm/node_modules/react');
+var createReactClass = require( 'C:/Users/papak/AppData/Roaming/npm/node_modules/create-react-class');
+var ReactDOM = require('C:/Users/papak/AppData/Roaming/npm/node_modules/react-dom');
 var Home = require('./components/homePage');
 var About = require('./components/about/aboutPage');
-var createReactClass = require('C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/create-react-class');
 var Header = require('./components/common/header');
 
 var App = createReactClass({
@@ -20380,4 +20384,4 @@ window.addEventListener('hashchange',render);
 render();
 
 //ReactDOM.render(<Home />, document.getElementById('app'));
-},{"./components/about/aboutPage":39,"./components/common/header":40,"./components/homePage":41,"C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/create-react-class":2,"C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/react":30,"C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules/react-dom":10}]},{},[42]);
+},{"./components/about/aboutPage":39,"./components/common/header":40,"./components/homePage":41,"C:/Users/papak/AppData/Roaming/npm/node_modules/create-react-class":2,"C:/Users/papak/AppData/Roaming/npm/node_modules/react":30,"C:/Users/papak/AppData/Roaming/npm/node_modules/react-dom":10}]},{},[42]);
