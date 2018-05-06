@@ -4,8 +4,8 @@ var React = require( 'C:/Users/papak/AppData/Roaming/npm/node_modules/react');
 var createReactClass = require( 'C:/Users/papak/AppData/Roaming/npm/node_modules/create-react-class');
 
 
-var AuthorList = createReactClass({ 
-    render: function(){
+var AuthorList = createReactClass({
+        render: function(){
         var createAuthorRow= function(author){
             return(
                 <tr key={author.id}>
