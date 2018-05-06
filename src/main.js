@@ -1,8 +1,8 @@
-$ = jQuery = require('jquery');
+//$ = jQuery = require('jquery');
 
 //var node_path = 'C:/Users/papak/AppData/Roaming/npm/node_modules/'
 //var node_path = 'C:/Users/thanos papakostas/AppData/Roaming/npm/node_modules';
-var jQuery = require('C:/Users/papak/AppData/Roaming/npm/node_modules/jquery');
+//var jQuery = require('C:/Users/papak/AppData/Roaming/npm/node_modules/jquery');
 var React = require( 'C:/Users/papak/AppData/Roaming/npm/node_modules/react');
 var createReactClass = require( 'C:/Users/papak/AppData/Roaming/npm/node_modules/create-react-class');
 var ReactDOM = require('C:/Users/papak/AppData/Roaming/npm/node_modules/react-dom');
